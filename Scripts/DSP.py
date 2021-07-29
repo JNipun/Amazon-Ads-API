@@ -42,7 +42,7 @@ class AmazonSpReport:
                     cred = load(f)
                     self.client_id = cred['client_id']
                     self.client_secret = cred['client_secret']
-                    self.profileId = '118194231635157'
+                    self.profileId = cred['profileId']
                     self.endpoint =  'https://'+ str(cred['endpoint'])
                     self.version = 'v2'
                     self.refresh_token = cred['refresh_token']
