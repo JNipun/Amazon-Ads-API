@@ -1,4 +1,4 @@
-requests==2.23.0
+requests==2.31.0
 pandas==1.2.4
 zipp==3.4.1
 jsonlib==1.6.1
